@@ -1,0 +1,165 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Header.css */
+
+/*
+.header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px; 
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #ddd;
+}
+*/
+
+/*TextForm*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#myTextarea {
+  height: 130px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.button-container {
+  margin-top: 10px;
+  text-align: right;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+h4{
+
+  margin-left: 145px;
+  margin-top: 20px;
+}
+.nav-link{
+
+  color: red;
+  font-size: 20px;
+}
+.navbar-brand{
+
+  color: red;
+}
+#Home{
+
+  color: red;
+}
+
+input#flexSwitchCheckDefault {
+  font-size: 25px;
+  margin-top: 4px;
+}
+h2 {
+  margin-left: 133px;
+  font-size: 30px;
+}
+p{
+  margin-left: 133px;
+}
+.btn.btn-success {
+  width: 40px;
+  height: 32px;
+}
+.btn.btn-warning{
+  width: 40px;
+  height: 32px;
+}
+.btn.btn-danger{
+  width: 40px;
+  height: 32px;
+}
